@@ -36,7 +36,7 @@ An incoming Statuspage webhook creates or updates a Front Application Object and
 _(Assumes use of Vercel)_
 ```bash
 pnpm install
-vercel dev # 
+vercel dev
 ```
 
 The dev server runs on `http://localhost:3000`. Use a tunneling tool (such as `ngrok`) to expose the `/event` endpoint so Statuspage can reach your local instance.
